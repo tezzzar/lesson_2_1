@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lesson_2_1</title>
+</head>
+
+<body>
+  <form>
+    <fieldset>
+      <legend>заповніть дані</legend>
+      <div>
+        <label for="name">Імʼя
+          <input id="name" type="text" placeholder="Імʼя" name="name" /></label>
+      </div>
+      <div>
+        <label for="soname">Прізвище
+          <input id="soname" type="text" placeholder="Прізвище" name="soname" /></label>
+      </div>
+      <div>
+        <label for="tel">Телефон
+          <input id="tel" type="tel" placeholder="Телефон" name="tel" /></label>
+      </div>
+      <div>
+        <label for="email">електронна пошта
+          <input id="email" type="email" placeholder="електронна пошта" name="email" /></label>
+      </div>
+      <div>
+        <label for="pass">пароль
+          <input id="pass" type="password" placeholder="пароль" name="pass" /></label>
+      </div>
+      <div>
+        <label for="date">дата народження
+          <input id="date" type="date" name="date" /></label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>оберіть стать</legend>
+      <div>
+        <input id="man" type="radio" name="gender" value="man" />
+        <label for="man">чоловік</label>
+      </div>
+      <div>
+        <input id="woman" type="radio" name="gender" value="woman" />
+        <label for="woman">жінка</label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>ваші хоббі</legend>
+      <div>
+        <div>
+          <input id="checkbox1" type="checkbox" name="checkboxname1" value="koding">
+          <label for="checkbox1">програмування</label>
+        </div>
+        <div>
+          <input id="checkbox2" type="checkbox" name="checkboxname2" value="fishing">
+          <label for="checkbox2">риболовля</label>
+        </div>
+        <div>
+          <input id="checkbox3" type="checkbox" name="checkboxname3" value="cooking">
+          <label for="checkbox3">кулінарія</label>
+        </div>
+        <div>
+          <input id="checkbox4" type="checkbox" name="checkboxname4" value="sport">
+          <label for="checkbox4">спорт</label>
+        </div>
+        <div>
+          <input id="checkbox5" type="checkbox" name="checkboxname5" value="animals">
+          <label for="checkbox5">домашні тварини</label>
+        </div>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>коментар</legend>
+      <div>
+        <label for="multi">комментар</label>
+        <textarea name="txt" id="multi" placeholder="Напишіть про себе" cols="100" rows="5"></textarea>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>додайте фото</legend>
+      <div>
+        <label for="image"></label>
+        <input id="image" type="file" name="image">
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>кнопки</legend>
+      <div>
+        <button type="submit"><b>Відправити</b></button>
+        <button type="reset">Очистити</button>
+      </div>
+    </fieldset>
+  </form>
+</body>
+
+</html>
